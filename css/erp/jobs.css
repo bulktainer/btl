@@ -1,0 +1,324 @@
+button.close {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+    padding: 0;
+}
+.close {
+    color: #000;
+    float: right;
+    font-weight: bold;
+    line-height: 1;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #fff;
+}
+.tank_plan_txt_fld {
+    background-color: #EAEAF7 !important;
+    cursor: pointer;
+}
+.tank_plan_txt_fld_disable {
+    background-color: #EAEAF7 !important;
+    cursor: not-allowed;
+}
+.red-icon-18{
+	color: #d9534f;
+	font-size: 18px;
+}
+.blue-icon-18{
+	color: #46b8da;
+	font-size: 18px;
+}
+.green-icon-18{
+	color: #5cb85c;
+	font-size: 18px;
+}
+.docs-icon .fa {
+  font-size: 18px;
+  color: #F93;
+}
+.delete-icon .fa {
+  font-size: 18px;
+  color: #D9534F;
+}
+.fa-download{
+	font-size: 18px;
+}
+.red-icon .fa {
+    color: #FF0000;
+    font-size: 15px;
+}
+.green-icon .fa {
+    color: #009900;
+    font-size: 15px;
+}
+.orange-icon .fa {
+    color: #FF9900;
+    font-size: 15px;
+}
+.td_break{
+	word-break:break-all;
+}
+.cell-heilight{
+	background-color: #FAF7A7 !important;
+}
+.cust-small-modal{
+	width: 50% !important;
+}
+.cust-big-modal{
+	width: 70% !important;
+}
+.pointer-cls{
+	cursor: pointer;
+}
+.modal-open{
+	overflow: scroll;
+}
+.center-cell {
+  text-align: center !important;
+}
+.default_dg_label {	color: #000 !important;
+	font-weight: normal !important;
+	margin-bottom: 0px !important;
+}
+.default_dg_legend {
+    text-align: left;
+}
+.default_dg_label a{
+	color: #194f7b !important;
+    text-decoration: underline !important;
+}
+.default_dg_table {
+	color: #000 !important;
+}
+.default_dg_label .supplier-invoice-btn {
+	color: #f93 !important;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.default_dg_label .upload-doc-btn {
+	color: #f93 !important;
+    font-size: 18px;
+    padding-left: 5px;
+}
+/* DM 29-Mar-2017 for in job cost new listing*/
+.report-tbl{
+	display:block;
+	overflow:auto;
+	width:100%;
+}
+.break-td{
+	max-width: 122px;
+	word-wrap: break-word;
+}
+
+/* DM-06-Apr-2018 Corner mark for table td*/
+.corner-cut {
+  position: relative;
+  overflow: hidden;
+}
+
+.corner-cut:after {
+  content: '';
+  display: block;
+  height: 10px;
+  width: 10px;
+  background: #ddd;
+  position: absolute;
+  top: 0px;
+  right: -5px;
+  transform: skewX(45deg);
+}
+
+.corner-blue:after {
+  background: green;
+}
+
+/* LIST STYLING */
+ul.new-list-instruction-links {
+  margin-left:-40px;
+  list-style:none;
+}
+ul.new-list-instruction-links li {
+  border-bottom:1px dotted #999;
+}
+ul.new-list-instruction-links li a {
+  display:block;
+  padding:3px 5px;
+}
+ul.new-list-instruction-links li a:hover {
+  background:#eee
+}
+tr.tr-file-email-records {
+    display: none;
+}
+tr.tr-file-email-records td { background:#eee !important}
+.fa {
+    font-size: 14px;
+}
+
+.red-tooltip + .tooltip > .tooltip-inner {
+  background-color: green ;
+  color: black;
+  padding : 1px;
+  max-width: 600px;
+  max-height: 600px;
+}
+.red-tooltip + .tooltip > .tooltip-arrow {
+  border-bottom-color: green;
+  color: black;
+}
+.ui-datepicker{
+  display: none;
+}
+.small-padding  td{
+  padding-bottom: 2px !important;
+  padding-top: 2px !important;
+}
+.clean-activity td{
+  background-color: #D3D3D3 !important;
+}
+.required::after {
+  color: red;
+  content: " *";
+}
+.thick-table td {
+  padding: 3px !important;
+  word-break: break-all;
+}
+
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#fff;}
+#colorbox{outline:0;}
+    #cboxTopLeft{width:25px; height:25px; background:url(../../images/border1.png) no-repeat 0 0;}
+    #cboxTopCenter{height:25px; background:url(../../images/border1.png) repeat-x 0 -50px;}
+    #cboxTopRight{width:25px; height:25px; background:url(../../images/border1.png) no-repeat -25px 0;}
+    #cboxBottomLeft{width:25px; height:25px; background:url(../../images/border1.png) no-repeat 0 -25px;}
+    #cboxBottomCenter{height:25px; background:url(../../images/border1.png) repeat-x 0 -75px;}
+    #cboxBottomRight{width:25px; height:25px; background:url(../../images/border1.png) no-repeat -25px -25px;}
+    #cboxMiddleLeft{width:25px; background:url(../../images/border2.png) repeat-y 0 0;}
+    #cboxMiddleRight{width:25px; background:url(../../images/border2.png) repeat-y -25px 0;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:20px;}
+        #cboxTitle{position:absolute; bottom:0px; left:0; text-align:center; width:100%; color:#999;}
+        #cboxCurrent{position:absolute; bottom:0px; left:100px; color:#999;}
+        #cboxLoadingOverlay{background:#fff url(../images/loading.gif) no-repeat 5px 5px;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+        #cboxSlideshow{position:absolute; bottom:0px; right:42px; color:#444;}
+        #cboxPrevious{position:absolute; bottom:0px; left:0; color:#444;}
+        #cboxNext{position:absolute; bottom:0px; left:63px; color:#444;}
+        #cboxClose{position:absolute; bottom:0; right:0; display:block; color:#444;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+/* Map mark css
+*/
+.pin2 {
+    position: absolute;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    font-weight: 600;
+    color: #000;
+    margin-top: 2px;
+    line-height: 1.2;
+    z-index: 9999;
+    font-size: 12px;
+    text-align: center;
+    background: #fff;
+}
+.pin2::after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+    bottom: -22px;
+    left: 0px;
+    border: 8px solid transparent;
+    z-index: -1;
+}
+.pin2.black {
+    border: 2px solid #000;
+}
+.pin2.black::after {
+ border-top: 15px solid #000;
+}
+.pin2.red {
+    border: 2px solid #f00;
+}
+.pin2.red::after {
+ border-top: 15px solid #f00;
+}
+.pin2.blue {
+    border: 2px solid #03C;
+}
+.pin2.blue::after {
+ border-top: 15px solid #03C;
+}
+.pin2.teal {
+  border: 2px solid #008080;
+}
+.pin2.teal::after {
+ border-top: 15px solid #008080;
+}
+.pin2.olivedrab {
+  border: 2px solid #6B8E23;
+}
+.pin2.olivedrab::after {
+ border-top: 15px solid #6B8E23;
+}
+
+/* override background color : bugfix  */
+.leaflet-div-icon{
+  background: none !important;
+  border:none !important;
+}
+
+.red-border {
+    border : red solid 1px !important;
+  }

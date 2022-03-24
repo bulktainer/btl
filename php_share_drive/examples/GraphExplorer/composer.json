@@ -1,0 +1,16 @@
+{
+  "name": "vgrem/graph_explorer",
+  "description": "Office 365 Graph Explorer",
+  "authors": [
+    {
+      "name": "Vadim Gremyachev",
+      "email": "vvgrem@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../../src"
+    }
+  ]
+}

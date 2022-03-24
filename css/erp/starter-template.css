@@ -1,0 +1,522 @@
+body {
+  padding-top: 50px;
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+.navbar .container {
+  padding-bottom: 0;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.nav-pills {
+	margin-top: 50px;
+}
+
+#supplier-costs-selector .nav {
+  margin: 10px 0 0;
+}
+
+#content {
+  padding-bottom: 30px !important;
+}
+
+legend {
+  padding: 0 0 5px;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+h3.title {
+	margin: 20px 0;
+}
+
+h3.title span {
+  font-size: 14px;
+}
+
+.icon-cell, .center-cell {
+  text-align: center;
+}
+
+.table {
+  margin: 20px 0;
+}
+
+.table td {
+  padding: 8px !important;
+  vertical-align: middle !important;
+}
+
+#supplier-extras td.actions {
+  width: 70px;
+}
+
+#supplier-extras td.actions .glyphicon {
+  top: 1px;
+}
+
+textarea {
+  border: 1px solid #ccc;
+}
+
+#ui-datepicker-div {
+  display: none;
+}
+
+.currency-icon-cell {
+  font-size: 14px;
+}
+
+.currency-icon-cell .fa {
+  font-size: 20px;
+  top: 2px;
+  position: relative;
+  color: #31708F;
+}
+
+/***********************************************************************************
+*
+* form validation
+*
+***********************************************************************************/
+
+.hidden, .hidden-alert {
+	display: none;
+}
+
+.highlight input, .highlight select, .highlight textarea, .highlight .input-group-addon, .highlight .chosen-container-single .chosen-single {
+	border: 1px solid #ff0000;
+}
+
+.highlight .input-group-addon {
+	border-left: none;
+	background: #F2DEDE;
+}
+
+.highlight .input-group-addon:first-child {
+	border-left: 1px solid #ff0000;
+	border-right: none;
+}
+
+input[type="submit"] {
+  margin: 0 0 10px;
+}
+
+
+/***********************************************************************************
+*
+* modal
+*
+***********************************************************************************/
+
+.modal-dialog {
+  width: 960px;
+}
+
+.modal-form, .modal-form-btn {
+  display: none;
+}
+
+/***********************************************************************************
+*
+* symbols
+*
+***********************************************************************************/
+
+.fa {
+  font-size: 14px;
+}
+
+.fa-files-o {
+  font-size: 20px;
+  margin: 0 5px 0 2px;
+  color: #428BCA;
+}
+
+.fa-file-o {
+  font-size: 18px;
+	color:#F93
+}
+
+.fa-check {
+  color: #5CB85C;
+}
+
+.fa-times {
+  color: #D9534F;
+}
+
+.glyphicon {
+  top: 3px;
+  font-size: 20px;
+}
+
+.glyphicon-ok-sign {
+  color: #4CAE4C;
+}
+
+.glyphicon-remove-circle, .glyphicon-ban-circle {
+  color: #31708F;
+}
+
+.glyphicon-plus-sign, .glyphicon-pencil {
+  color: #46B8DA;
+}
+
+button .glyphicon, .btn-success .glyphicon, a.btn .glyphicon {
+  color: #fff;
+  font-size: 14px;
+  top: 2px;
+}
+
+.alert-success a {
+  color: #3c763d;
+}
+
+.alert a {
+  font-weight: bold;
+}
+
+.ui-datepicker {
+  font-size: 14px;
+}
+
+.input-group-addon {
+  cursor: pointer;
+}
+
+.input-group-addon .glyphicon {
+  font-size: 16px;
+  top: 0;
+}
+
+.link-btn .glyphicon {
+  color: #000 !important;
+  font-size: 14px;
+  top: 2px;
+}
+
+.strong-cell {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.alert {
+  font-size: 14px;
+}
+
+.alert .fa {
+  font-size: 18px;
+}
+
+.center-cell .fa-arrow-circle-o-right {
+  font-size: 20px;
+}
+
+.icons a {
+  margin: 0 5px 0 0;
+}
+
+.edit-icon .glyphicon {
+  font-size: 18px;
+}
+
+.duplicate-icon .fa {
+  font-size: 18px;
+  color: #5CB85C;
+}
+
+.btn.duplicate-icon .fa, .btn.delete-icon .fa {
+  color: #fff;
+}
+
+.delete-icon .fa {
+  font-size: 18px;
+  color: #D9534F;
+}
+
+.docs-icon .fa {
+  font-size: 18px;
+  color: #F93;
+}
+
+.delete-supplier-cost-tansport-mode .fa {
+  font-size: 20px;
+  padding: 3px 0 0 0;
+}
+
+.delete-supplier-extra {
+  margin-left: 5px;
+}
+
+/***********************************************************************************
+*
+* pagination
+*
+***********************************************************************************/
+
+.custom-pagination {
+  top: 0 !important;
+  position: relative !important;
+  width: 100%;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.custom-pagination form {
+  text-align: center;
+}
+
+.custom-pagination div {
+  display: inline-block;
+}
+
+.custom-pagination .enabled {
+  cursor: pointer;
+  color: #46b8da;
+}
+
+.custom-pagination .enabled:hover {
+  color: #31708f;
+}
+
+.custom-pagination .disabled {
+  color: #ccc;
+}
+
+.custom-pagination .disabled:hover {
+  cursor: auto;
+  color: #ccc;
+}
+
+.custom-pagination .pagesize {
+  display: none;
+}
+
+.custom-pagination .pagedisplay {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  color: #000;
+}
+
+.reset {
+  float: right;
+}
+
+.reset, .show-filters {
+  font-size: 12px;
+}
+
+.reset .glyphicon, .show-filters .glyphicon {
+  font-size: 14px;
+  color: #fff;
+}
+
+.r-button {
+  float: right;
+}
+
+.hide-filters tr.tablesorter-filter-row {
+  display: none !important;
+}
+
+tr.tablesorter-filter-row td {
+  background: #efefef;
+}
+
+tr.tablesorter-filter-row td select {
+  width: 100%;
+}
+
+tr.tablesorter-filter-row td input {
+  display: none;
+}
+
+th {
+  padding: 10px 2px !important;
+}
+
+td.notes {
+  max-width: 175px;
+}
+
+/***********************************************************************************
+*
+* buttons
+*
+***********************************************************************************/
+
+.form-buttons {
+  margin: 0 !important;
+}
+
+.view-duplicate-customer-quote {
+  display: block;
+  margin: 10px 0 0;
+}
+
+
+/***********************************************************************************
+*
+* customer quote
+*
+***********************************************************************************/
+
+#modal-supplier-costs-table {
+  display: none;
+  margin: 40px 0 0;
+}
+
+.delete-supplier-cost-table .glyphicon {
+  font-size: 18px;
+  color: #31708F;
+}
+
+.tab-content > .tab-pane {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.tab-content > .tab-pane.active {
+  z-index: 999;
+}
+
+.breadcrumbs ul {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs ul li {
+  float: left;
+  list-style: none;
+  margin: 0 10px 0 0;
+  font-size: 11px;
+  color: #545454;
+}
+
+.breadcrumbs ul li .glyphicon {
+  font-size: 10px;
+  top: 1px;
+}
+
+.supplier-details h5 {
+  display: inline-block;
+}
+
+#nav {
+  z-index: 1000 !important;
+}
+
+.tooltip-icon {
+  color: #31708f;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.custom-container {
+  width: 90% !important;
+}
+
+.custom-container .grid_12 {
+  width: 100% !important;
+  margin: 0;
+}
+
+.fa-info-circle {
+  font-size: 16px;
+  margin: 2px 0 0;
+}
+
+.modal-table th {
+  padding: 4px 0 !important;
+}
+
+.checkbox-approved {
+  display: none;
+}
+
+.checkbox-approved label {
+  font-weight: normal;
+}
+
+.orig-cost {
+  margin: 4px 0 0 0;
+}
+
+.grey {
+  color: #999;
+}
+
+.filter {
+  width: 100%;
+}
+
+#additional-costs th {
+  padding: 8px !important;
+}
+
+.input-lg {
+  font-size: 12px;
+}
+
+#additional-description-capture {
+  width: 215px;
+}
+
+.glyphicon-modal {
+  font-size: 16px !important;
+}
+
+.glyphicon-modal.glyphicon-ok {
+  color: #5cb85c;
+}
+
+.glyphicon-modal.glyphicon-ok-circle {
+  color: #5cb85c;
+}
+
+.glyphicon-pencil-draft {
+  color: #337ab7;
+}
+
+.glyphicon-modal.glyphicon-remove {
+  color: #337ab7;
+}
+
+.glyphicon-modal.glyphicon-remove-circle {
+  color: #337ab7;
+}
+
+.glyphicon-modal.glyphicon-warning-sign {
+  color: #d9534f;
+}
+
+#supplier-costs .hide-cell {
+  display: none;
+}
+
+#modal-customer-quote-cost-info #additional-costs .tablesorter-filter-row td {
+  display: none !important;
+}

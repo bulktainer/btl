@@ -1,0 +1,7 @@
+{
+  "require": {
+    "php": ">= 5.4.0",
+    "dispatch/dispatch": "dev-master",
+    "php-activerecord/php-activerecord": "dev-master"
+  }
+}

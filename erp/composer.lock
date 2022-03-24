@@ -1,0 +1,170 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "3839aecd1a5f62434c43ddb5d3665ca3",
+    "packages": [
+        {
+            "name": "dispatch/dispatch",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/noodlehaus/dispatch.git",
+                "reference": "6511e58736ba1c6677ebb6afe532318eac756840"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/noodlehaus/dispatch/zipball/6511e58736ba1c6677ebb6afe532318eac756840",
+                "reference": "6511e58736ba1c6677ebb6afe532318eac756840",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.4.0"
+            },
+            "suggest": {
+                "dispatch/dispatch-extras": "Encryption, caching and more, for dispatch",
+                "dispatch/dispatch-mustache": "mustache template support within dispatch",
+                "giggleboxstudios/dispatch-handlebars": "handlebars template support within dispatch"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/dispatch.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jesus A. Domingo",
+                    "homepage": "http://noodlehaus.github.io/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Kafene",
+                    "homepage": "https://github.com/kafene",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Martin Angelov",
+                    "homepage": "https://github.com/martinaglv",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Lars",
+                    "homepage": "https://github.com/larsbo",
+                    "role": "Developer"
+                },
+                {
+                    "name": "4d47",
+                    "homepage": "https://github.com/4d47",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Bastian Widmer",
+                    "homepage": "https://github.com/dasrecht",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Lloyd Zhou",
+                    "homepage": "https://github.com/lloydzhou",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Darkalemanbr",
+                    "homepage": "https://github.com/darkalemanbr",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Amin By",
+                    "homepage": "https://github.com/xielingwang",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Ross Masters",
+                    "homepage": "https://github.com/rmasters",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "scan",
+                    "homepage": "https://github.com/scan",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "a microframework/front-controller",
+            "homepage": "http://noodlehaus.github.io/dispatch/",
+            "keywords": [
+                "framework",
+                "micro",
+                "microframework",
+                "microphp",
+                "router"
+            ],
+            "time": "2014-03-01 01:30:13"
+        },
+        {
+            "name": "php-activerecord/php-activerecord",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jpfuentes2/php-activerecord.git",
+                "reference": "6ca994b9f8cf984cff14033ad96264d17916af56"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jpfuentes2/php-activerecord/zipball/6ca994b9f8cf984cff14033ad96264d17916af56",
+                "reference": "6ca994b9f8cf984cff14033ad96264d17916af56",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "pear/log": "dev-master",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "ActiveRecord.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "php-activerecord is an open source ORM library based on the ActiveRecord pattern.",
+            "homepage": "http://www.phpactiverecord.org/",
+            "keywords": [
+                "activerecord",
+                "orm"
+            ],
+            "time": "2014-02-27 17:26:01"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "dispatch/dispatch": 20,
+        "php-activerecord/php-activerecord": 20
+    },
+    "platform": {
+        "php": ">= 5.4.0"
+    },
+    "platform-dev": [
+
+    ]
+}
