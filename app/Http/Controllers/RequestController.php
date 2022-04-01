@@ -17,8 +17,6 @@ class RequestController extends Controller
         $title = $request->title;
         $module = $request->module;
         $key_word = $request->key_word;
-        $condition_columns = '';
-        $condition = '';
         $request_query = moduleRequest::select('requests.title', 'requests.key_word', 'requests.created_by', 'requests.file_name', 'requests.file_path', 'requests.id', 'requests.description', 'modules.name as module_name', 'users.name as user_name')
             ->leftJoin('modules', 'modules.id', '=', 'requests.module_id')
             ->leftJoin('users', 'users.id', '=', 'requests.user_id');
@@ -27,14 +25,11 @@ class RequestController extends Controller
             $request_query->where('requests.title', 'LIKE', "%{$title}%");
         }
         if (!empty($key_word)) {
-            $request_query->where('requests.title', 'LIKE', "%{$title}%");
+            $request_query->where('requests.key_word', 'LIKE', "%{$key_word}%");
+
         }
         if (!empty($module)) {
-            if (!empty($condition_columns)) {
-                $request_query->where('requests.title', 'LIKE', "%{$title}%", 'AND', 'requests.module_id', '=', $module);
-            } else {
-                $request_query->where('requests.module_id', '=', "$module");
-            }
+            $request_query->where('requests.module_id', '=', "$module");
         }
         $request_list = $request_query->cursorPaginate(5);
         $module_list = module::get();
