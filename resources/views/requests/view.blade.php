@@ -87,7 +87,7 @@
                                             </ul>
                                         </div>
                                         <hr>
-                                        <h5 class="font-size24 sm-font-size22 xs-font-size20">{{$request_data->description}}</h5>
+                                        <h5 class="font-size24 sm-font-size22 xs-font-size20">{{strip_tags($request_data->description)}}</h5>
                                     </div>
                                 </div>
 

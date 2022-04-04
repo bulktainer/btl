@@ -51,7 +51,7 @@
                                     <div class="col-md-4">
                                         <div class="mb-3">
                                             <label class="control-label">Key Word</label>
-                                            <input type="text" id="key_word" name="key_word" value="{{$key_word}}" class="form-control" placeholder="Key word" />
+                                            <input type="text" id="key_word" name="key_word" value="{{$key_word}}" class="form-control" placeholder="key word" />
                                         </div>
                                     </div>
                                     <div class="col-md-4">
