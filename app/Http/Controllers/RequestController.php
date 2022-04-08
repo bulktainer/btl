@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Validator;
 
 class RequestController extends Controller
 {
+// index
     public function index(Request $request)
     {
         $title = $request->title;
@@ -42,11 +43,11 @@ class RequestController extends Controller
             'key_word'=>$key_word
         ]);
     }
-
+// add
     public function add()
     {
         $module_list = module::get();
-        return view('requests/form', ['module_list' => $module_list, 'request_data' => new Request()]);
+        return view('requests/form', ['module_list' => $module_list, 'request_data' => new Request(), 'form_type'=> 'add']);
     }
 
 
@@ -75,7 +76,7 @@ class RequestController extends Controller
                 }
                 $name = $request->file('file')->getClientOriginalName();
                 $response = SharepointService::uploadFile($request->file('file'), $name);
-                $path = 'https://digitalmeshsoftech.sharepoint.com/' . $response;
+                $path = 'https://digitalmeshsoftech.sharepoint.com' . $response;
             } else {
                 $path = $request->file_path;
                 $name = $request->file_name;
@@ -117,14 +118,14 @@ class RequestController extends Controller
                 ->withErrors($errors);
         }
     }
-
+// edit
     public function edit($id)
     {
         $request_data = moduleRequest::where('id', $id)->first();
         $module_list = module::get();
-        return view('requests/form', ['module_list' => $module_list, 'request_data' => $request_data]);
+        return view('requests/form', ['module_list' => $module_list, 'request_data' => $request_data,'form_type'=> 'edit']);
     }
-
+// view
     public function view($id)
     {
 
@@ -134,8 +135,7 @@ class RequestController extends Controller
             ->first();
         return view('requests/view', ['request_data' => $request_data]);
     }
-
-
+// delete
     public function delete(Request $request)
     {
         $data = DB::table('requests')->where('id', $request->request_id)->delete();

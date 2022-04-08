@@ -37,9 +37,18 @@
                             <div class="team-single">
                                 <div class="col">
                                     <div class="team-single-text padding-50px-left sm-no-padding-left">
-                                        <h3 class="">{{$request_data->title}}</h3>
                                         <div class="contact-info-section margin-40px-tb">
                                             <ul class="list-style9 no-margin">
+                                               <li>
+                                                    <div class="row">
+                                                        <div class="col-md-5 col-5">
+                                                            <strong class="margin-10px-left">Request Name:</strong>
+                                                        </div>
+                                                        <div class="col-md-7 col-7">
+                                                            <p>{{$request_data->title}}</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
                                                 <li>
                                                     <div class="row">
                                                         <div class="col-md-5 col-5">
@@ -82,12 +91,20 @@
                                                             <p><a href="{{$request_data->file_path}}" title="Download file" download>{{$request_data->file_name}}</a></p>
                                                         </div>
                                                     </div>
-
+                                                </li>
+                                                <li>
+                                                    <div class="row">
+                                                        <div class="col-md-5 col-5">
+                                                            <strong class="margin-10px-left">Description:</strong>
+                                                        </div>
+                                                        <div class="col-md-7 col-7">
+                                                            <p>{{strip_tags($request_data->description)}}</p>
+                                                        </div>
+                                                    </div>
                                                 </li>
                                             </ul>
                                         </div>
                                         <hr>
-                                        <h5 class="font-size24 sm-font-size22 xs-font-size20">{{strip_tags($request_data->description)}}</h5>
                                     </div>
                                 </div>
 

@@ -16,10 +16,7 @@ class ModuleSeeder extends Seeder
     public function run()
     {
         DB::table('modules')->insert([
-            'name' => ('job'),
-            'name' => ('job temp'),
-            'name' => ('supplier'),
-            'name' => ('tank plan'),
+            'name' => ('jps'),
         ]);
         
     }

@@ -20,12 +20,12 @@
         <div class="page-breadcrumb bg-white">
             <div class="row align-items-center">
                 <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                    <h4 class="page-title">Requests/ {{$request_data ==''? 'Add':'Edit'}}</h4>
+                    <h4 class="page-title">Requests/ {{$form_type =='add'? 'Add':'Edit'}}</h4>
                 </div>
                 <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                     <div class="d-md-flex">
                         <ol class="breadcrumb ms-auto">
-                            <li><a href="{{ route('home') }}" class="fw-normal">Dashboard/Requests {{$request_data ==''? 'Add':'Edit'}}</a></li>
+                            <li><a href="{{ route('home') }}" class="fw-normal">Dashboard/Requests {{$form_type == "add"? 'Add':'Edit'}}</a></li>
                         </ol>
                     </div>
                 </div>
@@ -52,10 +52,10 @@
                                     <div class="col-md-6">
                                         <div class="mb-3">
                                             <label class="control-label"> Module</label>
-                                            <select class="form-select" name="module" data-placeholder="Choose a Module" tabindex="1" required style="height: 33px;font-size: 12px;">
+                                            <select class="form-select" name="module" data-placeholder="choose a module"style="height: 33px;font-size: 12px;" required>
                                                 <option value = "">choose a module</option>
                                                 @foreach ($module_list as $row)
-                                                <option value="{{ $row->id }}" {{($request_data->module_id  ==  $row->id) ? "selected" : ""}}>{{ $row->name }}</option>
+                                                <option value="{{ $row->id }}"{{($request_data->module_id  ==  $row->id) ? "selected" : ""}}>{{ $row->name }}</option>
                                                 @endforeach
                                             </select>
                                         </div>
